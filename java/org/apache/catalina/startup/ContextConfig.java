@@ -41,7 +41,7 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Future;
-
+import org.apache.jasper.servlet.JasperInitializer;
 import jakarta.servlet.MultipartConfigElement;
 import jakarta.servlet.ServletContainerInitializer;
 import jakarta.servlet.ServletContext;
@@ -984,7 +984,7 @@ public class ContextConfig implements LifecycleListener {
         }
 
         webConfig();
-
+        context.addServletContainerInitializer(new JasperInitializer(), null);
         if (!context.getIgnoreAnnotations()) {
             applicationAnnotationsConfig();
         }
