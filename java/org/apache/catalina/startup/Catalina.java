@@ -148,6 +148,7 @@ public class Catalina {
 
     /**
      * Location of generated sources.
+     * place where code is generated  TODO
      */
     protected File generatedCodeLocation = null;
 
@@ -898,7 +899,7 @@ public class Catalina {
 
     }
 
-
+//TODO what does here mean?  TODO
     protected void initStreams() {
         // Replace System.out and System.err with a custom PrintStream
         System.setOut(new SystemLogHandler(System.out));

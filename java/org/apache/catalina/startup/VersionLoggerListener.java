@@ -93,6 +93,7 @@ public class VersionLoggerListener implements LifecycleListener {
     }
 
 
+    //TODO why so many log, not understand
     private void log() {
         log.info(sm.getString("versionLoggerListener.serverInfo.server.version",
                 ServerInfo.getServerInfo()));

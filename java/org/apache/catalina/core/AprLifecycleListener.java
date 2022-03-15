@@ -46,7 +46,7 @@ import org.apache.tomcat.util.res.StringManager;
  * have more than one Server instance per JVM, this listener <em>must not</em>
  * be added to the {@code Server} instances, but handled outside by the calling
  * code which is bootstrapping the embedded Tomcat instances. Not doing so will
- * lead to JVM crashes.
+ * lead to JVM crashes.TODO what does this comment mean?
  *
  * @since 4.1
  */

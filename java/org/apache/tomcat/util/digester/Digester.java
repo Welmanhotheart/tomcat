@@ -349,6 +349,7 @@ public class Digester extends DefaultHandler2 {
     protected Log saxLog = LogFactory.getLog("org.apache.tomcat.util.digester.Digester.sax");
 
     /**
+     * TODO what is generated code here
      * Generated code.
      */
     protected StringBuilder code = null;

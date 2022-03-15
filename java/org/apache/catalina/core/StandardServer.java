@@ -171,6 +171,7 @@ public final class StandardServer extends LifecycleMBeanBase implements Server {
 
     private File catalinaBase = null;
 
+    //TODO not understand
     private final Object namingToken = new Object();
 
     /**

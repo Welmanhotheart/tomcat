@@ -24,6 +24,7 @@ import org.apache.juli.logging.LogFactory;
 
 /**
  * store server.xml GlobalNamingResource.
+ * what does it do here? TODO
  */
 public class GlobalNamingResourcesSF extends StoreFactoryBase {
     private static Log log = LogFactory.getLog(GlobalNamingResourcesSF.class);

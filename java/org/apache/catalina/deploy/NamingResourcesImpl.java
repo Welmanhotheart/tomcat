@@ -61,7 +61,8 @@ import org.apache.tomcat.util.res.StringManager;
 
 /**
  * Holds and manages the naming resources defined in the Jakarta EE
- * Naming Context and their associated JNDI context.
+ * Naming Context and their associated JNDI context, what does here mean TODO.
+ * Naming Context and associated JNDI context, the difference is what? TODO
  *
  * @author Remy Maucherat
  */
